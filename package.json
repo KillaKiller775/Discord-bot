@@ -1,0 +1,21 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node ./deploy-commands.js",
+    "start": "node index.js"
+  },
+  "author": "Blitz775",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.12.2",
+    "@snazzah/davey": "^0.1.7",
+    "discord-webhook-node": "^1.1.8",
+    "discord.js": "^14.23.2",
+    "ffmpeg-static": "^5.2.0",
+    "ytdl-core": "^4.11.5"
+  }
+}
