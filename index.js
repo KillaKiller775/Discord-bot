@@ -12,7 +12,7 @@ const client = new Client({
 });
 
 // When the bot is ready, log this message
-client.once('clientReady', () => {
+client.once('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
